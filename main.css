@@ -1,0 +1,92 @@
+*{
+	margin: 3px;
+	padding: 3px;
+
+
+}
+
+@import url('https://fonts.google.com/?selection.family=Josefin+Sans');
+
+body{
+	background-color: #FAEBEFFF;
+	font-size: 13px;
+	/*font-family: font-family: 'Josefin Sans', sans-sefif;*/
+	text-align: left;
+	font-family: 'Poppins', bold;
+}
+
+ 
+a{
+	color: #755139FF;
+}
+
+a:hover {
+	color: black;
+	text-decoration: none;	
+}
+
+nav ul {
+	list-style: none;
+	padding: 10px;
+}
+
+ul li ul li {
+
+	display: none;
+}
+
+ul li {
+
+	float: left;
+	width: 150px;
+	height: 40px;
+	margin-right: 1px;
+	margin: 1px;
+	margin-left: 1px;
+
+}
+
+ul li:hover ul li {
+
+	display: block
+
+}
+
+nav a:hover {
+	background-color: #CCCCCC;
+}
+
+nav a{
+	display: block;
+	padding: 10px
+	
+} 
+
+h1{
+
+	font-family: 'Baloo Bhai', cursive;
+	text-align: center;
+
+	float: center;
+	margin-right: 20px;
+	margin-top: 60px;
+	margin-bottom: 50px;
+	padding: 100px;
+	font-size: 20px;
+	height: 20px;
+
+}
+
+p{
+
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 140px;
+	font-size: 13px;
+	color: #755139FF;
+	font-family: 'Poppins', cursive;
+}
+
+img { 
+
+}
